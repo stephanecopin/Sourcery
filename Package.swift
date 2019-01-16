@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "SourceryJS", targets: ["SourceryJS"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/kylef/Commander.git", .exact("0.7.1")),
+        .package(url: "https://github.com/kylef/Commander.git", .exact("0.8.0")),
         // PathKit needs to be exact to avoid a SwiftPM bug where dependency resolution takes a very long time.
         .package(url: "https://github.com/kylef/PathKit.git", .exact("0.9.2")),
         .package(url: "https://github.com/jpsim/SourceKitten.git", .exact("0.21.2")),

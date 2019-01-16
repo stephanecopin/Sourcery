@@ -39,6 +39,7 @@
 		07FBA9ACC684BE4804961709193A9AB6 /* SWXMLHash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D27F81EFF4E0E2268B4B2E2ED0FB89F /* SWXMLHash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08F40D309E2766616528A31B9EE99754 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B233F5545BEB6B31D11F8E4649B3F6D /* Parser.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		090CD165D6B0B1A7066007D8440FFCFE /* Predicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668E27284F6F55B7817944A8C5DDB87 /* Predicate.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		09F63522DC62970694E91C91ED3D377F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		0A1CB50A23A5C2DC2E5A0D36D6A86A80 /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B263C227D84F09CBDDBBC4BC0B88C33 /* Filters.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0A32AA6B7FB6252A9FA7DCF5211B449A /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C940F9802062515414EDE22E14A9631 /* DSL.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0BCA27E3E86E48D7318D25319CC50081 /* SwiftTryCatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D11717F31C1EBD111306CF8E8754A1E4 /* SwiftTryCatch-dummy.m */; };
@@ -48,11 +49,12 @@
 		0EDC64EFD601562B6B8130D07038F750 /* ToSucceed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E800392E6629458815F3E48AD46300 /* ToSucceed.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0FD7A15E9CC1479633E40BA39B8E1660 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA0073A18F417F5215F27DCE64B69D5 /* QuickSelectedTestSuiteBuilder.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		0FDC2B01F8B2FD83DB8E861FC9E4C54E /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B0E44A50E11B77996004034EBD09A8 /* Stringers.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		112874429877DD2D8ABFD65F2FF3A66B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		1197DCAD51EE432BCF885633EB02FD6C /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 432D29F04613A874E6129DE07B8D6518 /* NMBExceptionCapture.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1217AEF6A6F0148B88E2E6A62C33C56B /* AEXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E0199B04D45D49481389250C2784E9 /* AEXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12567B038B48855382F8E0D03BE4A4EF /* QuickSpecBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3645FDD912236675EE4BEEDE27ACE3D3 /* QuickSpecBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		12729F3C0C86F7640C043DF085357AEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
 		128A87112DB2BB749BCA567AF55B4D59 /* yaml_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D150C89E7B3F1439AFEBE9E2C107397 /* yaml_private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		130E1503E98D18449635EC8296BE8F7B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		1417699AA0911122604B708E76F525C0 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1484B656FA7528CAD0C05EF096C1EE /* FailureMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		150C993757F317BD497FF382E4CF5198 /* Dictionary+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D4A4C389D140A262EA21B8CBE0C7AE /* Dictionary+Merge.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		16B73B43634ABB83AB49CF1AD90A1BCE /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806BACF7E9B05B519712C7B0E558CD1 /* BeLessThanOrEqual.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -63,11 +65,13 @@
 		1BBA1267A6430DBF63DAB743E2B36394 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894263EC7311ABE58E98FF1B7B22DCA9 /* Element.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1C1FB2948EB588A08B2714660A2C3887 /* CXCompilationDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3E7467594E607CB0B11B99D78560E8 /* CXCompilationDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C4940707BF0259A3696D38825029723 /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93323A7A6CA571A6A563C8ACC349EB0D /* URL+FileName.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1CF37F0EDCF4DED2AA2E8964C8C8749D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		1D16CBEA84CEEF29DCD27C94DBE82381 /* XCConfigurationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4506BADCCB93C97DE930E3FF6A6D09 /* XCConfigurationList.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1D3BC871766AA747A067B7B89FADB8B0 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7091DB088DA9AA34C57D363FEBF65F /* Options.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1DE7FCCAE6A859471CEF1C47437840B7 /* XCVersionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71B12A624620201C4BFC9DEB34784BA /* XCVersionGroup.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1F670B7AA28D829499FD5C644F8D21FA /* Pods-Sourcery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 539783FAF538C83A1511EAA58E0BF4FA /* Pods-Sourcery-dummy.m */; };
 		1F725B4EDD7FEEFF76E8E6C87C46EF9D /* SyntaxKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A55423E587673177DF72E3DFE6BC1A /* SyntaxKind.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1FAC8A7C137D3A5076EE36BB4E988E34 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77937B7537DC3921236129824C4EC85 /* XCTest.framework */; };
 		1FBC3666C183D18500ACF207EA49CF07 /* Xcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF064ADE20B18CA317F9507A7D6875 /* Xcode.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2098EC04872D9B756E8F5C4C4CAD04B5 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9BEFB505A6F799FD639C49E768A426 /* NSBundle+CurrentTestBundle.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		230E9DCEB85B097A48990BCD938A40C0 /* PBXTargetDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BACD36FA0BABA4746989A12B209387C /* PBXTargetDependency.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -78,13 +82,11 @@
 		26DBF69A369ABE0CD02DFB18FCD8DABE /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A24AA4B42677C1FA4FDCFC04628CA61 /* EndWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		271A30872445195F1C0399C2BB6E7142 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC99F922C6EF2373F7559BA139C5094 /* Behavior.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2747311035B4779E58A5FAB1FA822D81 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C28DF9A5C5F00ABA959FB7DD594364 /* BeGreaterThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2828044DDA763422403537050BA4AACA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		2878F6A59A1353202D06CF796420E8FF /* SwiftTryCatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F67768609015C2760D773D519BF20BC7 /* SwiftTryCatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28FCE8B73D5CB39633FF7411B9EA132D /* Await.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F21199DAA65D77D34B36686944F77 /* Await.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2A4CCFC84E23A2010E9FF337BA2146C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
 		2AD60C2C73408BDCDFA722E27F395F6C /* SwiftIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C526FC6C20D5A4A73B67348D4F7C50F9 /* SwiftIdentifier.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2AFB0CD4482F544561D5F28B101EE572 /* PBXBuildPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9809F134FF5B4731C80CECA8B47F88F /* PBXBuildPhase.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2C534750C6BA9C0EE42A635362A41A1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
-		2CAC09BD8F4F2E965C228C3B605E15FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91F609BD73F23F3140F0919F5DD5F1C /* XCTest.framework */; };
 		2E3C43DF82EA1E60C97EC32ECCF3A486 /* Writable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2914213DD56D7363F1E5116DDEA3EE /* Writable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2EAA6D45A325A13EFBFDAB3B81863AD3 /* XCBreakpointList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38174F8382F570F83CC26D8B0A1BE701 /* XCBreakpointList.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2EF56FC3662BE6A5EC90D294FB5597B1 /* NimbleEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66781FE407659BB5ED5F499A05AAC15D /* NimbleEnvironment.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -100,6 +102,8 @@
 		37BE0AE0AEC5DF892FBFCCD9C9C29639 /* Commander-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A87AB10D47917C961E32E243058A4D /* Commander-dummy.m */; };
 		380D9AE75520EFC5B0982E0210C82252 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BD2F53E1CC9CA9E4FF02C750D16817 /* Parser.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		384D58A8ADD3ED5BFA172472F933C5EF /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616202680016A112061351B45EEEE1CD /* Text.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		39AD9F5FAF93854F791EE04A11DFF066 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
+		39B8DE6AA2A9D182BE54BB569E845956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36118713C82532ACC28AEB14786FF0DA /* Foundation.framework */; };
 		39F141F5D3B2523C8F873DE19D15A88A /* Yams.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF49F737B3963A3FC4D8C0958F012EC /* Yams.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39FF7261838088CA84577BA5E7CD9CFB /* SwiftTryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B933090C77A76859A5204264ECC820 /* SwiftTryCatch.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		3AC9DD8D228BCAD87116451709278CF6 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03115CB9FA6A68EF53432ED2C66ED02 /* Decoder.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -118,7 +122,6 @@
 		448F84E8802320905BFC60F438A5F1E5 /* Node.Scalar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6713A570153F22CA00C1A1F07D516825 /* Node.Scalar.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		44E0B9259C212F209E26827D3610CD85 /* library_wrapper_Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602DFEEACB57C69111D73EA391971B9C /* library_wrapper_Documentation.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		45DD62AB90A63442FE95A5A033FC5323 /* JSONDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7C49A1F99A7DFBEBB6249423F3AA2E /* JSONDecoding.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		46A621AD8C3DB0B3D90E79DB64F839C6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
 		46B333FBBF302D663D5DFAD643D0447B /* NMBObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751D9480EE6DFD223A3CE9D791BA7C21 /* NMBObjCMatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		46B9C5B4623B906FE4A43821774A4540 /* Emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A2B3F96DC130A0815E7D747EF898A8 /* Emitter.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		46ED8A37091B412677C77592D2F8A297 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87344703F30CBF49F4437C910B8B49E7 /* File.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -126,8 +129,8 @@
 		481AAA9407230B12CC676C8E83CDF5AA /* xcproj-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46773A9BF1AC8711820CB1E49BB0EA1F /* xcproj-dummy.m */; };
 		4889408469A3CBBB0CEFA5F2604C4FC5 /* Pods-SourcerySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E35C1ECB0A76B1C95F96402815382130 /* Pods-SourcerySwift-dummy.m */; };
 		496CB83B7F9A2F25CD0C20AFCCCD304F /* UID.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB80B418922E30993285E76CD714F627 /* UID.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4A952333ABDB5C4AA0A633305F18AAE2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
 		4C21481CB1D7B6CBCB860B10138C486A /* api.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D5612B8FAFC556D019CF622BE9FCC /* api.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4F457E27362045A7DDF0E8B17FAF0B53 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		4F6570C6A3ABAFB656663AB1AAA4F8A0 /* KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB71BE273C45EB565CF6BB1711FE8FBE /* KeyPath.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5021041CEC95F979A0DD5F672DF8955B /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E48C9848463F82AF282A9B87D765D72 /* QuickSpecBase.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		502B1D28D42939EED0D709871D01DD2A /* StencilSwiftKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8747B9EA2E4F767043336F3A2D301A4B /* StencilSwiftKit-dummy.m */; };
@@ -148,10 +151,11 @@
 		5AA0D5B4C39CD9D55A3224ACAAF0BB79 /* StencilSwiftKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7114363B2E7E11C1128534148639E509 /* StencilSwiftKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5ABB2F9D7704BD4A12E34C0F326C99C3 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84A9C23B2E5F36E2DC106C97245752C /* Encoder.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5BA1006DAFD72ACF9F31DC95096FD054 /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 897D79E0E3D17A00D3E5F4D0A0740DD9 /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC83E6F32F383EF8E619AAEF8C14A22 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		5CE46CFD2E88245FC21F2F8BC237BFC0 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726F4213FFD832A18D47B9DB721FF201 /* NimbleXCTestHandler.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5D8A8535EBCE76673BC1DCE3826FA4F7 /* PBXLegacyTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDBCB00ADE650BB1C8ABAEB44AE4321 /* PBXLegacyTarget.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5DEEDEADACDC5563F712C223110905FD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
 		5F65852C782DDDCE53DB21C907D8A508 /* PBXFileElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE96F5C7D07C1D94678539821713C93 /* PBXFileElement.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		60544238940AC99987883FE152899ADA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		6095EB39ED0ABEA406E3E38B8FBF0700 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462D194EE82EB185E422F1F0B8B288DE /* Error.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		618C13D4020EBA363997EFB60A56AC20 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = FCED17CEB9043FAD741199C5AF9A54F7 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		634B3CE3B7C5A00ACB63D31477DE97E0 /* SwiftDeclarationKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712E93DE581C480B21D006CB22852285 /* SwiftDeclarationKind.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -164,19 +168,20 @@
 		671F90BF597E40E8DA9A615B5B14C19E /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6668DFC13EB8BA4F139449469DBC7976 /* Node.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		67EACA3661AC5E938CEA6CEF94569169 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D21A246EBABA660DF2234CBD7F49A2 /* BeLogical.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		691A109DBD2CB67B8CF15C9916B97B6C /* XCBuildConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C6C9ED97CDB036F7CC7AE79AF175F1 /* XCBuildConfiguration.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		69F33A2FDECFB0FA0189DB3F090921DF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
 		6AA37915708950C0654DDE65AEF0A343 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F56F25BD00590D03025F676C4DA3083 /* ExampleHooks.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6ABB36C1D3D676CBFF19CA07A1BD429B /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC5B25C518C5C03409131FA7714A72E /* BeEmpty.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6AF4CBB26228ABAD750D5BF743ABF7A2 /* shim.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC64650083DA6821D3DA72D90BDD39BB /* shim.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6CA930E81B9BC447711A5EB72E37E172 /* library_wrapper_sourcekitd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74268D8BB0A6808F3ED91BEE91200C3 /* library_wrapper_sourcekitd.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6D356DBB165C069B7C888EC618BD7A5A /* emitter.c in Sources */ = {isa = PBXBuildFile; fileRef = 2F35B70D6D1F2F859337CB5B4193DF1D /* emitter.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6DA5107FE381B20E924BC13C45A2D35C /* Representer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93DB0F753E8761247320C1D7DE12775 /* Representer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6DAD111199CB08E52D936D5DD0B009A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		6DAD42D342E85D594F536E9ADA75A487 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB705938C4E0D7C9A4EA43DBA185371 /* ExampleMetadata.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6F795A44C899A47E922BB15A06B1B233 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAC1A23B7C80BCEDCA541ED8F500F09 /* Match.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6FEC9E33F27F1D4A8E659768C225539A /* JSONOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC72AA8A1E57FED2D20F57DB867BE8B9 /* JSONOutput.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7097E06CC2D56894F67B7D94661FFF60 /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE59E911B6E76ED269DB57BDF037C656 /* Contain.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		711B2B4C9E1BC57982E5ABEDF33B28BF /* ArgumentConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5334C3F9A71099E84CF0B2589DB7BE53 /* ArgumentConvertible.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		72A16089C1E9B3E36768EE25DBA6BB09 /* CallMacroNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329C7FB674E48D3C2264036006392682 /* CallMacroNodes.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		72A21307D12F35E3B89598CE83A12807 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		73B5E6FD7B3CA70AB91BD5CDEA55BE91 /* XCScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8507F7A375F87C4620C6F47B32F86A3F /* XCScheme.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		743DC21F085E7B5BBA1C5E1CAC2BFC56 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E733B571BEF4C920EFBE443C7D6E4F9 /* Request.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		74ECFACCA0EB6DE7DBCE26CD037AD08F /* FilterTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168237A4AAC14AB9A3981BC8F5E1C78F /* FilterTag.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -187,7 +192,6 @@
 		788A5B15E06EAFDFDD488A5057D43FFF /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851C80B940BE4033E1EDA91606D127A8 /* Closures.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7891F54DB1D2141D39C0331543BC26A9 /* XCWorkspaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4DFA29D95B55FDC4303FA9F56C4FD5 /* XCWorkspaceData.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		79FA255F43C9E42470C9720C0604444F /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE347E4FAB9337FEA96B6FFB417187 /* Nimble-dummy.m */; };
-		7A718BFAB28DEF43645B53A09B064247 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
 		7CB4D3943E44A201D9D8AF6447EF49BE /* library_wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0793224B86AD7036008ADDF3D6CAE90 /* library_wrapper.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7D435D08DFE04A09D020B700BBA22753 /* Index.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A334ACB8F59F190DC77FC67EB4C028D /* Index.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E198AF62203399B4E153B0EF9891615 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BE0FFD238A70E8635ADB1206035F9A /* SourceLocation.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -199,7 +203,6 @@
 		819A1DDF579B87864C07527FF7A1E7A4 /* PBXContainerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5F65DD29AB2230120F2395CA54E2E4 /* PBXContainerItem.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		81DADB74B787D4EE1C8D8FF9A03350AA /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982939D5767BBFCA519757E16A43AC6B /* Lexer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		826E861615C5D033559D94F8EBE3E800 /* Include.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73D08E3ABF7C9E6BBB8BCC8044DF1F9 /* Include.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		828144C8854E39CA7EC33789708F273E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
 		82E5CE660B0AC463FC123D7B8FA1B577 /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ACF2A06436E50F8B93E316A50AB94AC /* writer.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8315AE05593A1B1B748930E920BD51D2 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A47B7E7D0C68D4A80CD5A2843425B30 /* DSL.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8327F7497FD1DDB316A715106E24D622 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF663BB66C02049CBD99AC373C61AC3 /* Document.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -211,6 +214,7 @@
 		873CD79C39828CCB15F787019AD66E57 /* sourcekitd.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A2CC51B2AF9BF7C056B550AD51906F4 /* sourcekitd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		876B1D0147E8F0D70CDDB843123DAE64 /* Pods-CodableContextTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 079EAA6CDB124E55C68F43BF72ED4D0D /* Pods-CodableContextTests-dummy.m */; };
 		88AACC6ADC6D5D19DC7E3E5FCB432F3D /* OffsetMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28417962B44DAEA74840C46E01F912A /* OffsetMap.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		891736F93D63D98C41C6300E42259498 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		8B1C0B233B4EE6156D6304B36E415FFD /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 260C5D83252A1FA1834A34A945BBE85B /* Quick-dummy.m */; };
 		8BD6E91172603C1D5B0D6E8D6557C0F8 /* PBXVariantGroup+Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD71FE89BFC24BC579FEF4F64F20856 /* PBXVariantGroup+Deprecations.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8C2247EBFD3950B17D3FB2C1A536B2CC /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = AF99B4DC9E93A248DF27CD3E3EDC801B /* QCKDSL.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -224,12 +228,11 @@
 		9146550C82FDBA565131D0EA7DF01698 /* CwlMachBadInstructionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 44AFBC08A610D4345CEBB04A3A3BF5F2 /* CwlMachBadInstructionHandler.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		91E016547291DFA3B8486BCF3260E932 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = A266DDA9C8CAD7174D2A9C45C36A86D6 /* Commands.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		93BBDB63A2EF76DCDD53026214C5FC2F /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3269D24156D6E2D3D24F0D309966A /* DSL+Wait.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		94B7077330E0E9AE16B75BC8BC6317BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
+		9557AE8E97D9536D053AC9A1C8EB0EEF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		97A60F28FA1FF94422D2560002CEE407 /* NMBStringify.h in Headers */ = {isa = PBXBuildFile; fileRef = BD46915C8FE08C26F15075013D7A4B47 /* NMBStringify.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97AB989CC423C63F3A3833F40DC8A969 /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26280A520C73E6E9357A6964E329598 /* HaveCount.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		98E0222C95D128CC80A5E41738D019CF /* String+SourceKitten.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0261881EA3241B761CF0AF9C1C944 /* String+SourceKitten.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9A4A82B48C52D7DEC03AADC204EA52DA /* yaml.h in Headers */ = {isa = PBXBuildFile; fileRef = E8AE6D8DDF119778CB3E4B28F13C8443 /* yaml.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C83C50689CC3C09EA0F938B7EE07D28 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
 		9DBE4F37AC6E63F37B4E2AFE45A1320B /* ArgumentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1907E524A75AEDB2D3101B664AD466D /* ArgumentParser.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9E1652B2471FBD73B550771594CF9A2E /* library_wrapper_CXString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39F426DE67E192D8E303642992DCD48 /* library_wrapper_CXString.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9E55718873FCBC1BB15A5E0FF2C1882C /* Bool+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37F2D9A7186A2EBD96A40DF053EC459 /* Bool+Extras.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -247,12 +250,11 @@
 		A5ABA7A61E68803088A73487433FEB9B /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8EAB3A5A2C50075DE9A42E74656EB0 /* PathKit.framework */; };
 		A69805E69BD1CD1BF986442E462FB3BA /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398D7D9D852895163A83B6CA045D314B /* RaisesException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A7009A4BDA60A8E168A78F7F1F82D577 /* CommandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC89F4C8407805BF821F2CC5C68433BA /* CommandRunner.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A71A9322ED5BD7F5A36AFA235BD073E1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
+		A7D47ADA558A5BA67638AA379EF3E7AD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		A8BE619640A31CB124D59B056F205307 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FBDF490B03E04E556E289FBDB3A449 /* Node.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A9F7B8C7B4541A2EC0F431C77EA23D43 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		AA41C224F1E2EAA2F83170516C784239 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F267807F147D7D35156587D604223F8 /* Parser.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AB2C34BED2FC414961EAC4E8E37B74D8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
 		AC825E86990D8D7819DA3223416D592E /* BuildSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8A415078A37BA7AE8E10BD4DD35A66 /* BuildSettings.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		ACB7A9BB59BF5A0133DF3D57FF552959 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
 		AD6334734605341D5CB08BAF3079EEF4 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CC406197027AFCA67F63075286F01D /* World.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		ADDD9F805B95FD7C2DC1B09A027C74C6 /* SwiftDeclarationAttributeKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17700BD683B56B9876A21087A75191DB /* SwiftDeclarationAttributeKind.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AE5528FA1E2B04D5C87269D5E52A0C18 /* PBXProject+Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C7D2FFC054745DE738E56084E23278 /* PBXProject+Deprecations.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -285,7 +287,6 @@
 		C43A96E97EC620403DAA0B8B49860FBB /* library_wrapper_Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8EAEB0CEF0AF6D85BA3BE0F46D120B /* library_wrapper_Index.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C4FDDCD77A02A10E045B89E82328DDF3 /* PBXObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA506696BDC630CBCCA93E59C108A364 /* PBXObject.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C5F7D68084C87CF0BCE4D4435E3DF883 /* CXString.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B0F64C2F7DF077DD5C100D568A5A084 /* CXString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C79350583FB72B365D40330E48611434 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
 		C79CA559764E8E9037550BA7B0139316 /* Documentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 720D42B53BD36BEF8610E5C955BB0D39 /* Documentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C815A7003486ED8FDA410CF1069ADF8E /* Filters+Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2257D0E85D416C3D02067460F14B7758 /* Filters+Numbers.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C8C36B05E07462424CA4F11AD3B0FB35 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C4EF9F2E2B931F5EB377D076F4A99 /* AllPass.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -300,6 +301,7 @@
 		D290747F072BA84A9BE3424F3CEBFFEF /* ArgumentDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BFECAF941C1ADC708F8E6F9BCEC2FD /* ArgumentDescription.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D3A5D0C5DF616A9004B7D4F6F0510D33 /* Stencil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A0DD103604EE763E4E6192562593EC /* Stencil-dummy.m */; };
 		D506733F18349302819D3DEC00230BB4 /* PBXTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772D0471C4BD7CCD84DBF9D7665DA7D5 /* PBXTarget.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D5BA3856EA27C3127207D4BC0617CF3D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		D6B33BB712048AA2C0DE886CE39ECD42 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632EED8E89121740833E3BAAF7967882 /* Example.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D6BB26853FE48BA62542807B45922CF6 /* reader.c in Sources */ = {isa = PBXBuildFile; fileRef = C755D265D06F47CB019F509167229EF9 /* reader.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D6C4B658033EDE4917404C07DFADE5E2 /* SwiftTryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B82D343DCB06D2E67252A83A9AB935 /* SwiftTryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -313,7 +315,9 @@
 		DBBC96BFBC2B8C4C41857D8C7BE6CBBF /* PBXResourcesBuildPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA08D68AACC4A2EECE0A819B8C440504 /* PBXResourcesBuildPhase.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DC3F869C98C9FA8FB9DE20DD5AA6AE65 /* SwiftDocs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85E049BD9F20E849C27A59E6783A41B /* SwiftDocs.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DDCEB9721739D2F60AF703E64DB0C62D /* Node.Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F827B406D7BE0353608A0E62E29A33DC /* Node.Sequence.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DE441B6963A4050DC789288FA1ED7CDD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		DE67E64BE92599D2DC22A98994D8A627 /* PBXProj+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4B2092154712A8EA7F6F1310883891 /* PBXProj+Helpers.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DE846D8C6B9773CE7F4BB5DFC05CBCD7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */; };
 		DE9DB97AAD4EEB6CC6BD602F8ADA7F97 /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D024BE4FBE98F71529EE3BD51FFC85 /* QuickTestSuite.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DFB6041D34AAA322AA2BA16F4CFEFA93 /* AEXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B91649593624CA00CD26B1C7754ADB5E /* AEXML-dummy.m */; };
 		E0AC1041355D1B9677D83D9ABE1A40B2 /* Inheritence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BEB6DFACF4775FDDE14E0AF0E90315 /* Inheritence.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -344,8 +348,6 @@
 		EFB34C6467DD28E0C08A6E3C6C189F37 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCF2E5DAC178E465FEC82C35BF6C54 /* Loader.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F0083F3A9EDE451ABB24ACB55DCCDBDF /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 2036BD6C6F95F3F87461193878D22CF4 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F088EE1AE386EEF27AC934DE13F455BB /* CwlCatchException.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0B57450261A4956185A29EAC98BCED /* CwlCatchException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0F33E9EB28BD075C8DE1A992A2EF514 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
-		F10D28040FDAA6F438872E053564A17D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
 		F12912A0DC2EB181991C3BF39B5B848C /* ExpectationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB50FEB118B76F8C832A67734D5AD3 /* ExpectationMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F344456118450FE401648A3BF0C4159C /* SourceKittenFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0D68C51845588F5A0E6D60FE90E794 /* SourceKittenFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4A328550F2F146633384625B91E4441 /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A975EAD6813B9D03C89654BF04289F /* QuickSpec.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -361,9 +363,7 @@
 		FB2623A789E955A9EAF2242151F24D99 /* PBXProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F28D54C09F81B4926771C4F4A7A400 /* PBXProject.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FB782CCA92137EE7AA162D76A21C2D44 /* PBXNativeTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783149A07C8BA059AD8F08D01CE99897 /* PBXNativeTarget.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FBA232F61807F6F0AF1B4864B5B948EE /* Dictionary+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472BE01C2BF13581110997E5088B1846 /* Dictionary+Extras.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FC53F9B39815C9C6E1E6733E0CC18674 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256D37031A92F2E0CF035599FB2B8754 /* Foundation.framework */; };
 		FD163419B9001E75408AD1F9DD12C2B9 /* ObjectReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B7BB8BE47407E388D22F9C0784D1B6 /* ObjectReference.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FFC8BEF36E544D7801187BA9C1821133 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */; };
 		FFF3CEFC7E9F1A5EDEF6EA4FFCCBEFE9 /* PBXProjEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB9F5A795BB904A0CF0C65FC2F8F55F /* PBXProjEncoder.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
@@ -618,7 +618,6 @@
 		220D4ABB327E444E3316D0B7C2883E79 /* Documentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Documentation.swift; path = Source/SourceKittenFramework/Documentation.swift; sourceTree = "<group>"; };
 		2257D0E85D416C3D02067460F14B7758 /* Filters+Numbers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Filters+Numbers.swift"; path = "Sources/StencilSwiftKit/Filters+Numbers.swift"; sourceTree = "<group>"; };
 		22A7248013AE5B8DD8333D86FA7DFEE9 /* PBXProjError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBXProjError.swift; path = Sources/xcproj/PBXProjError.swift; sourceTree = "<group>"; };
-		256D37031A92F2E0CF035599FB2B8754 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		257CE47054819DF9514B24A1CF56F885 /* Stencil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stencil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		260C5D83252A1FA1834A34A945BBE85B /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
 		2620C25F05FAE373125012EE5C4599C1 /* Pods-SourceryTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SourceryTests-umbrella.h"; sourceTree = "<group>"; };
@@ -644,6 +643,7 @@
 		32654FDB9A225CDBE6849A182FBE689F /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
 		329C7FB674E48D3C2264036006392682 /* CallMacroNodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallMacroNodes.swift; path = Sources/StencilSwiftKit/CallMacroNodes.swift; sourceTree = "<group>"; };
 		32ED54386BA07188F91D2A610E041DCA /* xcproj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = xcproj.framework; path = xcproj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36118713C82532ACC28AEB14786FF0DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3645FDD912236675EE4BEEDE27ACE3D3 /* QuickSpecBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpecBase.h; path = Sources/QuickSpecBase/include/QuickSpecBase.h; sourceTree = "<group>"; };
 		370E671376DCBF00E181F8B9DB92C49B /* StencilSwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StencilSwiftKit.framework; path = StencilSwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37970EE0C59EB621BD59CC1A510C0D79 /* Pods_SourcerySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SourcerySwift.framework; path = "Pods-SourcerySwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -691,7 +691,6 @@
 		4BFAEC1AAEDC0D9C8E898ACC51052330 /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SWXMLHash+TypeConversion.swift"; path = "Source/SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
 		4C02E28C63F28516E8DC70022CCB8AFF /* SourceDeclaration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceDeclaration.swift; path = Source/SourceKittenFramework/SourceDeclaration.swift; sourceTree = "<group>"; };
 		4E3BBC48BFE0770E34B4FAD351FC520F /* PBXSourceTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PBXSourceTree.swift; path = Sources/xcproj/PBXSourceTree.swift; sourceTree = "<group>"; };
-		4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		4F0D68C51845588F5A0E6D60FE90E794 /* SourceKittenFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SourceKittenFramework-umbrella.h"; sourceTree = "<group>"; };
 		4F8A02F76E7DE451C21B26A9DE9A4787 /* Pods-SourceryTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SourceryTests-frameworks.sh"; sourceTree = "<group>"; };
 		5008E490A6492635B8B7DCBDB4F76A47 /* Commander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Commander.framework; path = Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -825,7 +824,6 @@
 		91940ECEAB5781950EE193E12345CB10 /* Pods-CodableContextTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodableContextTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9239C25AF33C93D042A93943778D6899 /* Pods-CodableContextTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodableContextTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93323A7A6CA571A6A563C8ACC349EB0D /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93D4BD5B257F7C3AF6B8F6A6807FC079 /* NSString+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+C99ExtendedIdentifier.swift"; path = "Sources/Quick/NSString+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
 		940E9F84B05AA7BA99DB89DA96C57B08 /* Clang_C.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Clang_C.h; path = Source/Clang_C/include/Clang_C.h; sourceTree = "<group>"; };
 		948334B61F1391163B986F70567C8BDF /* Pods-CodableContextTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodableContextTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -868,6 +866,7 @@
 		B0209F37B035058D442CA3B6BA6CD673 /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
 		B03115CB9FA6A68EF53432ED2C66ED02 /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = Sources/Yams/Decoder.swift; sourceTree = "<group>"; };
 		B0A0DD103604EE763E4E6192562593EC /* Stencil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Stencil-dummy.m"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3DAAC48AD6064719C92CA2DF41C2B82 /* Pods-SourceryTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SourceryTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B3FD086A6462313699B1C88CB78A32DD /* CwlDarwinDefinitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CwlDarwinDefinitions.swift; path = Carthage/Checkouts/CwlPreconditionTesting/Sources/CwlPreconditionTesting/CwlDarwinDefinitions.swift; sourceTree = "<group>"; };
 		B4E800392E6629458815F3E48AD46300 /* ToSucceed.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToSucceed.swift; path = Sources/Nimble/Matchers/ToSucceed.swift; sourceTree = "<group>"; };
@@ -916,6 +915,7 @@
 		CDE0261881EA3241B761CF0AF9C1C944 /* String+SourceKitten.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+SourceKitten.swift"; path = "Source/SourceKittenFramework/String+SourceKitten.swift"; sourceTree = "<group>"; };
 		CE78994BD36403B990AFAB36AA84FBD7 /* Yams.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Yams.framework; path = Yams.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFE4B0564373615B2517A68570EC8757 /* Stencil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Stencil-Info.plist"; sourceTree = "<group>"; };
+		D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		D0EE412970909CFA0E7DABFD190F6083 /* Language.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Language.swift; path = Source/SourceKittenFramework/Language.swift; sourceTree = "<group>"; };
 		D0EF493EDA4D5E2A76F7771D2E07D5D2 /* Pods-SourceryJS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SourceryJS.modulemap"; sourceTree = "<group>"; };
 		D11717F31C1EBD111306CF8E8754A1E4 /* SwiftTryCatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftTryCatch-dummy.m"; sourceTree = "<group>"; };
@@ -958,8 +958,8 @@
 		E5E050BED86D19CF24DBE31C8CBB435C /* Pods-SourceryJS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SourceryJS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E70A67EA12075CD886ED8E1B98CB7371 /* Pods-TemplatesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TemplatesTests-dummy.m"; sourceTree = "<group>"; };
 		E71B12A624620201C4BFC9DEB34784BA /* XCVersionGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCVersionGroup.swift; path = Sources/xcproj/XCVersionGroup.swift; sourceTree = "<group>"; };
+		E77937B7537DC3921236129824C4EC85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E8AE6D8DDF119778CB3E4B28F13C8443 /* yaml.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = yaml.h; path = Sources/CYaml/include/yaml.h; sourceTree = "<group>"; };
-		E91F609BD73F23F3140F0919F5DD5F1C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E988AFC59D175BF6725EF1A73482D159 /* Pods-SourceryJS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SourceryJS-acknowledgements.plist"; sourceTree = "<group>"; };
 		E9D21A246EBABA660DF2234CBD7F49A2 /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
 		EAAD9F74902623F19D28174CC6CE539A /* XCWorkspaceDataElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XCWorkspaceDataElement.swift; path = Sources/xcproj/XCWorkspaceDataElement.swift; sourceTree = "<group>"; };
@@ -1003,7 +1003,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DEEDEADACDC5563F712C223110905FD /* Cocoa.framework in Frameworks */,
+				6DAD111199CB08E52D936D5DD0B009A2 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1011,7 +1011,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C79350583FB72B365D40330E48611434 /* Cocoa.framework in Frameworks */,
+				9557AE8E97D9536D053AC9A1C8EB0EEF /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1020,7 +1020,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				071EF46940CFA316DC869070CCBD1B04 /* AEXML.framework in Frameworks */,
-				2A4CCFC84E23A2010E9FF337BA2146C4 /* Cocoa.framework in Frameworks */,
+				A9F7B8C7B4541A2EC0F431C77EA23D43 /* Cocoa.framework in Frameworks */,
 				C2F8315DC581387A31D82EC18928E813 /* PathKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1029,7 +1029,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0F33E9EB28BD075C8DE1A992A2EF514 /* Cocoa.framework in Frameworks */,
+				60544238940AC99987883FE152899ADA /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1037,8 +1037,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A952333ABDB5C4AA0A633305F18AAE2 /* Cocoa.framework in Frameworks */,
-				FC53F9B39815C9C6E1E6733E0CC18674 /* Foundation.framework in Frameworks */,
+				5BC83E6F32F383EF8E619AAEF8C14A22 /* Cocoa.framework in Frameworks */,
+				39B8DE6AA2A9D182BE54BB569E845956 /* Foundation.framework in Frameworks */,
 				0D68B2E868970028C0571881D1BB4179 /* Stencil.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1047,7 +1047,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46A621AD8C3DB0B3D90E79DB64F839C6 /* Cocoa.framework in Frameworks */,
+				D5BA3856EA27C3127207D4BC0617CF3D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1055,7 +1055,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				828144C8854E39CA7EC33789708F273E /* Cocoa.framework in Frameworks */,
+				DE441B6963A4050DC789288FA1ED7CDD /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1063,7 +1063,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B7077330E0E9AE16B75BC8BC6317BC /* Cocoa.framework in Frameworks */,
+				1CF37F0EDCF4DED2AA2E8964C8C8749D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1071,7 +1071,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB2C34BED2FC414961EAC4E8E37B74D8 /* Cocoa.framework in Frameworks */,
+				09F63522DC62970694E91C91ED3D377F /* Cocoa.framework in Frameworks */,
 				BEE171EB328BD903C60EA814E7C0C96C /* SWXMLHash.framework in Frameworks */,
 				CF52CDC29B319CF539B93A4A9C0775C4 /* Yams.framework in Frameworks */,
 			);
@@ -1081,7 +1081,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69F33A2FDECFB0FA0189DB3F090921DF /* Cocoa.framework in Frameworks */,
+				112874429877DD2D8ABFD65F2FF3A66B /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1089,7 +1089,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A71A9322ED5BD7F5A36AFA235BD073E1 /* Cocoa.framework in Frameworks */,
+				891736F93D63D98C41C6300E42259498 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1097,7 +1097,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFC8BEF36E544D7801187BA9C1821133 /* Cocoa.framework in Frameworks */,
+				130E1503E98D18449635EC8296BE8F7B /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1105,7 +1105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C534750C6BA9C0EE42A635362A41A1E /* Cocoa.framework in Frameworks */,
+				72A21307D12F35E3B89598CE83A12807 /* Cocoa.framework in Frameworks */,
 				A5ABA7A61E68803088A73487433FEB9B /* PathKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1114,7 +1114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB7A9BB59BF5A0133DF3D57FF552959 /* Cocoa.framework in Frameworks */,
+				2828044DDA763422403537050BA4AACA /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1122,7 +1122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A718BFAB28DEF43645B53A09B064247 /* Cocoa.framework in Frameworks */,
+				39AD9F5FAF93854F791EE04A11DFF066 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1130,8 +1130,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F10D28040FDAA6F438872E053564A17D /* Cocoa.framework in Frameworks */,
-				2CAC09BD8F4F2E965C228C3B605E15FC /* XCTest.framework in Frameworks */,
+				DE846D8C6B9773CE7F4BB5DFC05CBCD7 /* Cocoa.framework in Frameworks */,
+				1FAC8A7C137D3A5076EE36BB4E988E34 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1139,7 +1139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C83C50689CC3C09EA0F938B7EE07D28 /* Cocoa.framework in Frameworks */,
+				A7D47ADA558A5BA67638AA379EF3E7AD /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1147,7 +1147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12729F3C0C86F7640C043DF085357AEA /* Cocoa.framework in Frameworks */,
+				4F457E27362045A7DDF0E8B17FAF0B53 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1283,6 +1283,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5039206D33E3D4BD43C73DC455683AE0 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				D07D78918EFC3DDAFCED2EB8B6AE0ABA /* Cocoa.framework */,
+				36118713C82532ACC28AEB14786FF0DA /* Foundation.framework */,
+				E77937B7537DC3921236129824C4EC85 /* XCTest.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
 		5362A4B08EA21B024A64B799BFAD40B0 /* Pods-CodableContextTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -1349,7 +1359,7 @@
 				257CE47054819DF9514B24A1CF56F885 /* Stencil.framework */,
 				178AF8F2D82F4B62F1049BF40C8270BF /* SWXMLHash.framework */,
 				9F8DA818BDF24251725D89E236C72806 /* Yams.framework */,
-				A34805759FC5FE0090B98E3A266A709A /* OS X */,
+				5039206D33E3D4BD43C73DC455683AE0 /* OS X */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1396,7 +1406,7 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
 				6DB026B177402339E355952FCE1B5455 /* Frameworks */,
 				7E0AD70D387C28D9F1EA0B1076FD594B /* Pods */,
 				4385E1D098CBC921B1FE80815E247E04 /* Products */,
@@ -1604,16 +1614,6 @@
 			);
 			name = Quick;
 			path = Quick;
-			sourceTree = "<group>";
-		};
-		A34805759FC5FE0090B98E3A266A709A /* OS X */ = {
-			isa = PBXGroup;
-			children = (
-				4E4A5D2EC216BB06276CE8BFAB8A46F8 /* Cocoa.framework */,
-				256D37031A92F2E0CF035599FB2B8754 /* Foundation.framework */,
-				E91F609BD73F23F3140F0919F5DD5F1C /* XCTest.framework */,
-			);
-			name = "OS X";
 			sourceTree = "<group>";
 		};
 		ABE24D16F128EEAB320AE8555281334F /* xcproj */ = {
@@ -3195,7 +3195,112 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04D4B9B491795403E1B17F79011D717B /* Debug */ = {
+		00F1754209F184A81B45704CB3743619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2164FB963B4874403BDA43578FB94541 /* Commander.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Commander/Commander-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Commander/Commander-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Commander/Commander.modulemap";
+				PRODUCT_MODULE_NAME = Commander;
+				PRODUCT_NAME = Commander;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0370936440743DA2012FEDF927075FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 948334B61F1391163B986F70567C8BDF /* Pods-CodableContextTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-CodableContextTests/Pods-CodableContextTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-CodableContextTests/Pods-CodableContextTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		042B9DDFF563AB65E90D732B6556540A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547100FC4B5781FCC76DF058CFD909CA /* Pods-CodableContextTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-CodableContextTests/Pods-CodableContextTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-CodableContextTests/Pods-CodableContextTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		06AF6D6936F647778478794AA2D52AAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A3ECB53160DB24AB7E462C6B1379804 /* Pods-TemplatesTests.debug.xcconfig */;
 			buildSettings = {
@@ -3226,12 +3331,46 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		0987E16DB84176E8C88EE5E64BE131FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0494AB517E83190B1E1DEC65D8C6376 /* Pods-SourcerySwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SourcerySwift/Pods-SourcerySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-SourcerySwift/Pods-SourcerySwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		0B048591723E229B84F004D02E9BF3EA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3245,6 +3384,75 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		135AC1F1F0CA70D6CFF4C138FC34F015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8663A1980BCD81D4F343E9FDCC11F999 /* PathKit.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/PathKit/PathKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PathKit/PathKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/PathKit/PathKit.modulemap";
+				PRODUCT_MODULE_NAME = PathKit;
+				PRODUCT_NAME = PathKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		149B862EF0B6C44AD79899532FAF5011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD2ADFB81F2A1A81E8AF7D158F2D676 /* Pods-TemplatesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-TemplatesTests/Pods-TemplatesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-TemplatesTests/Pods-TemplatesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -3263,41 +3471,71 @@
 			};
 			name = Debug;
 		};
-		1E2CE32914A104DDC390B7A51F3175B8 /* Debug */ = {
+		22FD8BFC00D0E36CA7F8A9A3C8E7B8C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFE213F67423838D23B851E6022F2F04 /* AEXML.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AEXML/AEXML-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
-				PRODUCT_MODULE_NAME = AEXML;
-				PRODUCT_NAME = AEXML;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		25F0FDDD9A8604AFC41BE8B510AB44DB /* Release */ = {
+		2581F9CA3FD766DF32924366ACA852BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 15110E7D81347BB8358EDFF89576CC9D /* xcproj.xcconfig */;
 			buildSettings = {
@@ -3325,153 +3563,13 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		2E5CCA96AFD81CE047CD6BCCDA350D26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50D855BD0A4247ACE4C68F17C0318CB7 /* SourceKittenFramework.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/SourceKittenFramework/SourceKittenFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SourceKittenFramework/SourceKittenFramework-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/SourceKittenFramework/SourceKittenFramework.modulemap";
-				PRODUCT_MODULE_NAME = SourceKittenFramework;
-				PRODUCT_NAME = SourceKittenFramework;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2F8EA7029222EC6E9650A50B08BEB19C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F26D42E80671DDCB1246BE71B33613D /* Quick.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Quick/Quick-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
-				PRODUCT_MODULE_NAME = Quick;
-				PRODUCT_NAME = Quick;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		37D61B95D0A1CC70D61569D5C2CE98DF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8663A1980BCD81D4F343E9FDCC11F999 /* PathKit.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/PathKit/PathKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PathKit/PathKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/PathKit/PathKit.modulemap";
-				PRODUCT_MODULE_NAME = PathKit;
-				PRODUCT_NAME = PathKit;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3BFFCAD4B0F42FA6020A4C0AB9C635C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFE213F67423838D23B851E6022F2F04 /* AEXML.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AEXML/AEXML-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
-				PRODUCT_MODULE_NAME = AEXML;
-				PRODUCT_NAME = AEXML;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3ED624DAB12DA30A219D21C0588537A7 /* Release */ = {
+		25941D710410F2C92531E0BE49BFB237 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2164FB963B4874403BDA43578FB94541 /* Commander.xcconfig */;
 			buildSettings = {
@@ -3498,15 +3596,79 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		4C04570B018C7B100CE4F987F6F5BA50 /* Debug */ = {
+		2762A75F8F6DE911E8C533663970952E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8663A1980BCD81D4F343E9FDCC11F999 /* PathKit.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/PathKit/PathKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PathKit/PathKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/PathKit/PathKit.modulemap";
+				PRODUCT_MODULE_NAME = PathKit;
+				PRODUCT_NAME = PathKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		276C1AE034BDB9953A1DFFE2C03561D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0FD2B271746757BF9E2E73BD5121BF /* Yams.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Yams/Yams-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Yams/Yams-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Yams/Yams.modulemap";
+				PRODUCT_MODULE_NAME = Yams;
+				PRODUCT_NAME = Yams;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		339744BBA775EF1D6F0947FADE2DA20C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4659F669DD066D434575E1769E44B154 /* StencilSwiftKit.xcconfig */;
 			buildSettings = {
@@ -3533,16 +3695,15 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		5464634C261176797D10DD632BFB7B88 /* Debug */ = {
+		38791DDCF58F6F45FF9C07B57249494D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50D855BD0A4247ACE4C68F17C0318CB7 /* SourceKittenFramework.xcconfig */;
+			baseConfigurationReference = 4659F669DD066D434575E1769E44B154 /* StencilSwiftKit.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
@@ -3556,23 +3717,160 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/SourceKittenFramework/SourceKittenFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SourceKittenFramework/SourceKittenFramework-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/StencilSwiftKit/StencilSwiftKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StencilSwiftKit/StencilSwiftKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/SourceKittenFramework/SourceKittenFramework.modulemap";
-				PRODUCT_MODULE_NAME = SourceKittenFramework;
-				PRODUCT_NAME = SourceKittenFramework;
+				MODULEMAP_FILE = "Target Support Files/StencilSwiftKit/StencilSwiftKit.modulemap";
+				PRODUCT_MODULE_NAME = StencilSwiftKit;
+				PRODUCT_NAME = StencilSwiftKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		41CF7C151E485244764DD86DEE64909E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE213F67423838D23B851E6022F2F04 /* AEXML.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEXML/AEXML-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
+				PRODUCT_MODULE_NAME = AEXML;
+				PRODUCT_NAME = AEXML;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		427B885916E1A44C57833901C4DD6CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC5EDAA6E291AB5B70330C9D87308178 /* Pods-SourceryJS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SourceryJS/Pods-SourceryJS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-SourceryJS/Pods-SourceryJS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43D860560D87DCFF202F9E0CE0934CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D85A2B0A4160DEC6328D75B6CD4B1F /* Pods-SourceryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SourceryTests/Pods-SourceryTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-SourceryTests/Pods-SourceryTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50F4C23AA566727DDAA53A6B3C81F2FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F26D42E80671DDCB1246BE71B33613D /* Quick.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Quick/Quick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
+				PRODUCT_MODULE_NAME = Quick;
+				PRODUCT_NAME = Quick;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		556963A120C64E8F91ABA14208C99AC8 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3608,80 +3906,10 @@
 			};
 			name = Release;
 		};
-		5A3AFEE29C54389C87F02E2F1B2A7FDB /* Debug */ = {
+		7DD461FC13F5948C9C020F04B89A8732 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EB98BF036739A06E6D05C230C1B0084 /* SWXMLHash.xcconfig */;
+			baseConfigurationReference = 1E32FFEAD1B2E6AB816FB2D3742D6DC5 /* Nimble.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/SWXMLHash/SWXMLHash-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWXMLHash/SWXMLHash-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/SWXMLHash/SWXMLHash.modulemap";
-				PRODUCT_MODULE_NAME = SWXMLHash;
-				PRODUCT_NAME = SWXMLHash;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5D6AA22344523E0B6B0FE732F835A983 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EB98BF036739A06E6D05C230C1B0084 /* SWXMLHash.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/SWXMLHash/SWXMLHash-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWXMLHash/SWXMLHash-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/SWXMLHash/SWXMLHash.modulemap";
-				PRODUCT_MODULE_NAME = SWXMLHash;
-				PRODUCT_NAME = SWXMLHash;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5ED6E0E8132ACF570D19CE12537E62D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC5EDAA6E291AB5B70330C9D87308178 /* Pods-SourceryJS.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -3695,27 +3923,24 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-SourceryJS/Pods-SourceryJS-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nimble/Nimble-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-SourceryJS/Pods-SourceryJS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
+				PRODUCT_MODULE_NAME = Nimble;
+				PRODUCT_NAME = Nimble;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		6B857F6F1FE3FD374FA11E3073FCD3BA /* Debug */ = {
+		83CFCDB87C7C3F1799B42BEA1DBD7623 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89CBDCE7F55C265FCBED27507F4BAE71 /* Pods-SourcerySwift.debug.xcconfig */;
 			buildSettings = {
@@ -3746,348 +3971,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		6C46CEC9F2B4824AD0992F1AD036F410 /* Debug */ = {
+		86206DBC77A2338F6182FA56E53AA162 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A6CB57C25E030C96B846D9F9E0AE72E /* Stencil.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Stencil/Stencil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Stencil/Stencil-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/Stencil/Stencil.modulemap";
-				PRODUCT_MODULE_NAME = Stencil;
-				PRODUCT_NAME = Stencil;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		785092A6597A25701E13A846F3CD5DDA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CAE9F969C2C6FEB47AAD4B5349DFB68 /* Pods-SourceryJS.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-SourceryJS/Pods-SourceryJS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-SourceryJS/Pods-SourceryJS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		78691E0589DD024563845D9177248932 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A3B203E1B1693BF89833CC3CB422255 /* Pods-SourceryTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-SourceryTests/Pods-SourceryTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-SourceryTests/Pods-SourceryTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		889FE20B1BB37D4BD0EBF17C8D5F11C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0494AB517E83190B1E1DEC65D8C6376 /* Pods-SourcerySwift.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-SourcerySwift/Pods-SourcerySwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-SourcerySwift/Pods-SourcerySwift.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		89DA7115F3943AE9D5B7018A23B72D9E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C0FD2B271746757BF9E2E73BD5121BF /* Yams.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Yams/Yams-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Yams/Yams-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/Yams/Yams.modulemap";
-				PRODUCT_MODULE_NAME = Yams;
-				PRODUCT_NAME = Yams;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8CD2A24AAC62763760B82D87668B7937 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05D85A2B0A4160DEC6328D75B6CD4B1F /* Pods-SourceryTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-SourceryTests/Pods-SourceryTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-SourceryTests/Pods-SourceryTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8D49CE32BF7A2F4EB56F2C8E08E30BEC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 948334B61F1391163B986F70567C8BDF /* Pods-CodableContextTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-CodableContextTests/Pods-CodableContextTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-CodableContextTests/Pods-CodableContextTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9029E81EF89EEEFD9E6552D86CBE2005 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE7EC8223D9C060D83DA03C289F735A2 /* Pods-Sourcery.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-Sourcery/Pods-Sourcery-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-Sourcery/Pods-Sourcery.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		906ED0B5336321E63294AD9505F8153F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F26D42E80671DDCB1246BE71B33613D /* Quick.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Quick/Quick-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
-				PRODUCT_MODULE_NAME = Quick;
-				PRODUCT_NAME = Quick;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		93D720ABB39632C26D9BA1C9AE111C1F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E32FFEAD1B2E6AB816FB2D3742D6DC5 /* Nimble.xcconfig */;
+			baseConfigurationReference = 15110E7D81347BB8358EDFF89576CC9D /* xcproj.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -4102,25 +3993,24 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Nimble/Nimble-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/xcproj/xcproj-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/xcproj/xcproj-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
-				PRODUCT_MODULE_NAME = Nimble;
-				PRODUCT_NAME = Nimble;
+				MODULEMAP_FILE = "Target Support Files/xcproj/xcproj.modulemap";
+				PRODUCT_MODULE_NAME = xcproj;
+				PRODUCT_NAME = xcproj;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		97B26F869E2D137900E269BEF04EC4F0 /* Debug */ = {
+		86D267E3085844FA2217177F0D3FF579 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -4152,19 +4042,14 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
+					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -4174,55 +4059,18 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		9D681024BB7A7B5C06BF888DE2A0D74A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAD2ADFB81F2A1A81E8AF7D158F2D676 /* Pods-TemplatesTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-TemplatesTests/Pods-TemplatesTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-TemplatesTests/Pods-TemplatesTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		9F6C0452D08C947795D73A064ED67872 /* Debug */ = {
+		991EEF80A9B2ADCADC9DD24441B9E44B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2C0FD2B271746757BF9E2E73BD5121BF /* Yams.xcconfig */;
 			buildSettings = {
@@ -4249,14 +4097,257 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9EB09638DA1CD524DF0ECD575B4FED8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E32FFEAD1B2E6AB816FB2D3742D6DC5 /* Nimble.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nimble/Nimble-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
+				PRODUCT_MODULE_NAME = Nimble;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F500774C632BFE84D7CAAB5E774FCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB98BF036739A06E6D05C230C1B0084 /* SWXMLHash.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SWXMLHash/SWXMLHash-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWXMLHash/SWXMLHash-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SWXMLHash/SWXMLHash.modulemap";
+				PRODUCT_MODULE_NAME = SWXMLHash;
+				PRODUCT_NAME = SWXMLHash;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		BF870537985B6DB844BBE9265E1AA1B7 /* Release */ = {
+		A218832A2EAF3B450C1AA62BBE52228C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30559DE32EA3DF7E35ED8591E466CE4 /* Pods-Sourcery.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sourcery/Pods-Sourcery-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sourcery/Pods-Sourcery.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7D5BC15CC57082FE41D955AFE6FE3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7EC8223D9C060D83DA03C289F735A2 /* Pods-Sourcery.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Sourcery/Pods-Sourcery-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sourcery/Pods-Sourcery.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB884F72B7C48B855C5E98211691DA7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB98BF036739A06E6D05C230C1B0084 /* SWXMLHash.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/SWXMLHash/SWXMLHash-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWXMLHash/SWXMLHash-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SWXMLHash/SWXMLHash.modulemap";
+				PRODUCT_MODULE_NAME = SWXMLHash;
+				PRODUCT_NAME = SWXMLHash;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B155C42B7112E917836B9515BA4308E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3B203E1B1693BF89833CC3CB422255 /* Pods-SourceryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SourceryTests/Pods-SourceryTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-SourceryTests/Pods-SourceryTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE7F91F4C21BF7620D9027AE32379441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CAE9F969C2C6FEB47AAD4B5349DFB68 /* Pods-SourceryJS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-SourceryJS/Pods-SourceryJS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-SourceryJS/Pods-SourceryJS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0E456B7143AEE56CFD28390A1B9C7CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A6CB57C25E030C96B846D9F9E0AE72E /* Stencil.xcconfig */;
 			buildSettings = {
@@ -4283,47 +4374,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C14819FB7CBC240EB13D83C9E0B3E952 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 547100FC4B5781FCC76DF058CFD909CA /* Pods-CodableContextTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-CodableContextTests/Pods-CodableContextTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-CodableContextTests/Pods-CodableContextTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -4363,71 +4414,11 @@
 			};
 			name = Debug;
 		};
-		C7823343FD1834B654E2007B7E71DE51 /* Release */ = {
+		C5F4FDD419FEB5E557AFBD9588EA6C7D /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		E36CEA55DB8689135A6A053F41244F46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E32FFEAD1B2E6AB816FB2D3742D6DC5 /* Nimble.xcconfig */;
+			baseConfigurationReference = 50D855BD0A4247ACE4C68F17C0318CB7 /* SourceKittenFramework.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -4439,66 +4430,26 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Nimble/Nimble-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Nimble/Nimble-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SourceKittenFramework/SourceKittenFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SourceKittenFramework/SourceKittenFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Nimble/Nimble.modulemap";
-				PRODUCT_MODULE_NAME = Nimble;
-				PRODUCT_NAME = Nimble;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/SourceKittenFramework/SourceKittenFramework.modulemap";
+				PRODUCT_MODULE_NAME = SourceKittenFramework;
+				PRODUCT_NAME = SourceKittenFramework;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		E4E530F437135DFF74A985BACA825BE4 /* Debug */ = {
+		D1651C82118EAE49AB1A848D26FBBF3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E30559DE32EA3DF7E35ED8591E466CE4 /* Pods-Sourcery.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-Sourcery/Pods-Sourcery-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MODULEMAP_FILE = "Target Support Files/Pods-Sourcery/Pods-Sourcery.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EA2AD12A514832B6B5B8BAB770D1DEF0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2164FB963B4874403BDA43578FB94541 /* Commander.xcconfig */;
+			baseConfigurationReference = 3F26D42E80671DDCB1246BE71B33613D /* Quick.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
@@ -4512,27 +4463,26 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Commander/Commander-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Commander/Commander-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Quick/Quick-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/Commander/Commander.modulemap";
-				PRODUCT_MODULE_NAME = Commander;
-				PRODUCT_NAME = Commander;
+				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
+				PRODUCT_MODULE_NAME = Quick;
+				PRODUCT_NAME = Quick;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		EB73218D2A39D9899F5B8B574EFB273C /* Release */ = {
+		DACB2FC92364174FB846E7CC3814CA7A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8663A1980BCD81D4F343E9FDCC11F999 /* PathKit.xcconfig */;
+			baseConfigurationReference = EFE213F67423838D23B851E6022F2F04 /* AEXML.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
@@ -4546,63 +4496,26 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/PathKit/PathKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PathKit/PathKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AEXML/AEXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AEXML/AEXML-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/PathKit/PathKit.modulemap";
-				PRODUCT_MODULE_NAME = PathKit;
-				PRODUCT_NAME = PathKit;
+				MODULEMAP_FILE = "Target Support Files/AEXML/AEXML.modulemap";
+				PRODUCT_MODULE_NAME = AEXML;
+				PRODUCT_NAME = AEXML;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F4210DCA185635F70EFC0AAFBB2DBA8C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15110E7D81347BB8358EDFF89576CC9D /* xcproj.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/xcproj/xcproj-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/xcproj/xcproj-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/xcproj/xcproj.modulemap";
-				PRODUCT_MODULE_NAME = xcproj;
-				PRODUCT_NAME = xcproj;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F9C79FBC47146CCA96D49D95B292C30E /* Release */ = {
+		EDF9DC8CFDA8BBC37CCE7C2F4B954449 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4659F669DD066D434575E1769E44B154 /* StencilSwiftKit.xcconfig */;
+			baseConfigurationReference = 50D855BD0A4247ACE4C68F17C0318CB7 /* SourceKittenFramework.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
@@ -4616,19 +4529,50 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/StencilSwiftKit/StencilSwiftKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StencilSwiftKit/StencilSwiftKit-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SourceKittenFramework/SourceKittenFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SourceKittenFramework/SourceKittenFramework-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/StencilSwiftKit/StencilSwiftKit.modulemap";
-				PRODUCT_MODULE_NAME = StencilSwiftKit;
-				PRODUCT_NAME = StencilSwiftKit;
+				MODULEMAP_FILE = "Target Support Files/SourceKittenFramework/SourceKittenFramework.modulemap";
+				PRODUCT_MODULE_NAME = SourceKittenFramework;
+				PRODUCT_NAME = SourceKittenFramework;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE9F1FDCB896610D0DAF7C2B68627121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6CB57C25E030C96B846D9F9E0AE72E /* Stencil.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Stencil/Stencil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Stencil/Stencil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Stencil/Stencil.modulemap";
+				PRODUCT_MODULE_NAME = Stencil;
+				PRODUCT_NAME = Stencil;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -4650,8 +4594,8 @@
 		06BB19D8889705F7E98BB11C56FA6CE7 /* Build configuration list for PBXNativeTarget "Pods-SourceryJS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				785092A6597A25701E13A846F3CD5DDA /* Debug */,
-				5ED6E0E8132ACF570D19CE12537E62D6 /* Release */,
+				BE7F91F4C21BF7620D9027AE32379441 /* Debug */,
+				427B885916E1A44C57833901C4DD6CF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4659,8 +4603,8 @@
 		10836172B46B0B0B73CE062C21769FF3 /* Build configuration list for PBXNativeTarget "Nimble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				93D720ABB39632C26D9BA1C9AE111C1F /* Debug */,
-				E36CEA55DB8689135A6A053F41244F46 /* Release */,
+				7DD461FC13F5948C9C020F04B89A8732 /* Debug */,
+				9EB09638DA1CD524DF0ECD575B4FED8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4668,8 +4612,8 @@
 		1375C3D5E3223493747F1209EA48A313 /* Build configuration list for PBXNativeTarget "Pods-Sourcery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4E530F437135DFF74A985BACA825BE4 /* Debug */,
-				9029E81EF89EEEFD9E6552D86CBE2005 /* Release */,
+				A218832A2EAF3B450C1AA62BBE52228C /* Debug */,
+				A7D5BC15CC57082FE41D955AFE6FE3BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4677,8 +4621,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97B26F869E2D137900E269BEF04EC4F0 /* Debug */,
-				C7823343FD1834B654E2007B7E71DE51 /* Release */,
+				22FD8BFC00D0E36CA7F8A9A3C8E7B8C7 /* Debug */,
+				86D267E3085844FA2217177F0D3FF579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4686,8 +4630,8 @@
 		30F3028F73A4925B058639A84CAF0752 /* Build configuration list for PBXNativeTarget "SWXMLHash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A3AFEE29C54389C87F02E2F1B2A7FDB /* Debug */,
-				5D6AA22344523E0B6B0FE732F835A983 /* Release */,
+				9F500774C632BFE84D7CAAB5E774FCA7 /* Debug */,
+				AB884F72B7C48B855C5E98211691DA7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4704,8 +4648,8 @@
 		426B9898E775A1D556D4BB59AE617683 /* Build configuration list for PBXNativeTarget "xcproj" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4210DCA185635F70EFC0AAFBB2DBA8C /* Debug */,
-				25F0FDDD9A8604AFC41BE8B510AB44DB /* Release */,
+				86206DBC77A2338F6182FA56E53AA162 /* Debug */,
+				2581F9CA3FD766DF32924366ACA852BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4713,8 +4657,8 @@
 		49F9D768AB77118D919539F7DBF690CF /* Build configuration list for PBXNativeTarget "SourceKittenFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5464634C261176797D10DD632BFB7B88 /* Debug */,
-				2E5CCA96AFD81CE047CD6BCCDA350D26 /* Release */,
+				EDF9DC8CFDA8BBC37CCE7C2F4B954449 /* Debug */,
+				C5F4FDD419FEB5E557AFBD9588EA6C7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4722,8 +4666,8 @@
 		5A7A480F2F44470176AB928EAEA67F91 /* Build configuration list for PBXNativeTarget "Stencil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C46CEC9F2B4824AD0992F1AD036F410 /* Debug */,
-				BF870537985B6DB844BBE9265E1AA1B7 /* Release */,
+				C0E456B7143AEE56CFD28390A1B9C7CF /* Debug */,
+				FE9F1FDCB896610D0DAF7C2B68627121 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4731,8 +4675,8 @@
 		65620DCE6CF1059A9E40C4D0F9B993CF /* Build configuration list for PBXNativeTarget "Pods-CodableContextTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C14819FB7CBC240EB13D83C9E0B3E952 /* Debug */,
-				8D49CE32BF7A2F4EB56F2C8E08E30BEC /* Release */,
+				042B9DDFF563AB65E90D732B6556540A /* Debug */,
+				0370936440743DA2012FEDF927075FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4740,8 +4684,8 @@
 		9A672A949325E24EF889AEE24A5E5B68 /* Build configuration list for PBXNativeTarget "Commander" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA2AD12A514832B6B5B8BAB770D1DEF0 /* Debug */,
-				3ED624DAB12DA30A219D21C0588537A7 /* Release */,
+				00F1754209F184A81B45704CB3743619 /* Debug */,
+				25941D710410F2C92531E0BE49BFB237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4749,8 +4693,8 @@
 		9F398815C4AC87685988CD2214EF93EC /* Build configuration list for PBXNativeTarget "Yams" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F6C0452D08C947795D73A064ED67872 /* Debug */,
-				89DA7115F3943AE9D5B7018A23B72D9E /* Release */,
+				276C1AE034BDB9953A1DFFE2C03561D5 /* Debug */,
+				991EEF80A9B2ADCADC9DD24441B9E44B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4758,8 +4702,8 @@
 		A909730DFB417A5749F3D0C05988225D /* Build configuration list for PBXNativeTarget "PathKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37D61B95D0A1CC70D61569D5C2CE98DF /* Debug */,
-				EB73218D2A39D9899F5B8B574EFB273C /* Release */,
+				2762A75F8F6DE911E8C533663970952E /* Debug */,
+				135AC1F1F0CA70D6CFF4C138FC34F015 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4767,8 +4711,8 @@
 		B7347B0C8B1D6521206278070C035AFD /* Build configuration list for PBXNativeTarget "Pods-SourcerySwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B857F6F1FE3FD374FA11E3073FCD3BA /* Debug */,
-				889FE20B1BB37D4BD0EBF17C8D5F11C2 /* Release */,
+				83CFCDB87C7C3F1799B42BEA1DBD7623 /* Debug */,
+				0987E16DB84176E8C88EE5E64BE131FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4776,8 +4720,8 @@
 		D721AB0B5FDAFB398A0245799CE9D280 /* Build configuration list for PBXNativeTarget "StencilSwiftKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C04570B018C7B100CE4F987F6F5BA50 /* Debug */,
-				F9C79FBC47146CCA96D49D95B292C30E /* Release */,
+				38791DDCF58F6F45FF9C07B57249494D /* Debug */,
+				339744BBA775EF1D6F0947FADE2DA20C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4785,8 +4729,8 @@
 		E35E6AA414D91179E03510FF66D5F9E4 /* Build configuration list for PBXNativeTarget "AEXML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E2CE32914A104DDC390B7A51F3175B8 /* Debug */,
-				3BFFCAD4B0F42FA6020A4C0AB9C635C6 /* Release */,
+				DACB2FC92364174FB846E7CC3814CA7A /* Debug */,
+				41CF7C151E485244764DD86DEE64909E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4794,8 +4738,8 @@
 		EF72E93853C3356DB75C4EF89B580825 /* Build configuration list for PBXNativeTarget "Pods-SourceryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8CD2A24AAC62763760B82D87668B7937 /* Debug */,
-				78691E0589DD024563845D9177248932 /* Release */,
+				43D860560D87DCFF202F9E0CE0934CC0 /* Debug */,
+				B155C42B7112E917836B9515BA4308E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4803,8 +4747,8 @@
 		F653410C5FAE01460FF35ECA4F88252B /* Build configuration list for PBXNativeTarget "Pods-TemplatesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04D4B9B491795403E1B17F79011D717B /* Debug */,
-				9D681024BB7A7B5C06BF888DE2A0D74A /* Release */,
+				06AF6D6936F647778478794AA2D52AAD /* Debug */,
+				149B862EF0B6C44AD79899532FAF5011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4812,8 +4756,8 @@
 		FD2A0650EE1F7F9F92CAA1E0FC59F3FA /* Build configuration list for PBXNativeTarget "Quick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F8EA7029222EC6E9650A50B08BEB19C /* Debug */,
-				906ED0B5336321E63294AD9505F8153F /* Release */,
+				D1651C82118EAE49AB1A848D26FBBF3B /* Debug */,
+				50F4C23AA566727DDAA53A6B3C81F2FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
